@@ -25,7 +25,6 @@ function createWindow () {
 app.whenReady().then(() => {
   console.log('app.whenReady')
   console.log(`node version: ${process.versions['node']}`)
-  // add a line, to see git push response
 
   createWindow() 
   app.on('activate', function () {
