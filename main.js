@@ -25,7 +25,7 @@ function createWindow () {
 app.whenReady().then(() => {
   console.log('app.whenReady')
   console.log(`node version: ${process.versions['node']}`)
-
+//git@github.com:tiko0755/electron_start.git
   createWindow() 
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the
