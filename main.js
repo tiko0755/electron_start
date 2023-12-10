@@ -24,7 +24,8 @@ function createWindow () {
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
   console.log('app.whenReady')
-  console.log(`show node version: ${process.versions['node']}`)
+  console.log(`node version: ${process.versions['node']}`)
+  // add a line, to see git push response
 
   createWindow() 
   app.on('activate', function () {
